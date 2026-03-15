@@ -57,3 +57,8 @@ cdk.out/
 *.pth
 *.onnx
 *.npy
+
+# Don't include large data files
+student/final/models/*
+student/final/source/eval_output/*
+student/final/datasets/*
